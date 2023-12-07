@@ -1,0 +1,93 @@
+.inicioPage,
+.loginPage,
+.signUpPage,
+.cotizacionesPage,
+.cuentaPage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: goldenrod;
+}
+.loginForm,
+.signUpForm,
+.transferenciasForm,
+.pagosForm,
+.prestamoForm {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	width: 15rem;
+	align-items: center;
+}
+.loginForm input,
+.signUpForm input,
+.transferenciasForm input,
+.pagosForm input,
+.prestamoForm input,
+.conversionInput {
+	width: 15rem;
+	border-radius: 5px;
+	padding: 3px;
+}
+.loginForm button,
+.signUpForm button,
+.transferenciasForm button,
+.pagosForm button,
+.prestamoForm button {
+	width: 10rem;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: goldenrod;
+	border-color: goldenrod;
+	color: white;
+}
+.loginPage h1,
+.signUpPage h1,
+#transferenciasH1,
+#pagosH1,
+#prestamoH1 {
+	font-size: x-large;
+	color: goldenrod;
+}
+
+.buttonDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.buttonDiv button {
+	width: 8rem;
+	height: 2rem;
+	border-radius: 10px;
+}
+.buttonDiv button a {
+	text-decoration: none;
+	color: white;
+}
+#button1 {
+	background-color: goldenrod;
+	border-color:goldenrod;
+}
+#button2 {
+	background-color: goldenrod;
+	border-color: goldenrod;
+}
+.homeBankingDiv {
+	margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.cuentaImg {
+	width: 8rem;
+}
+.cuentaImgDiv {
+	background-color: goldenrod;
+	border-radius: 50%;
+	padding: 2% 4% 4% 4%;
+}
